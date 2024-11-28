@@ -44,12 +44,34 @@
         @media (max-width: 768px) {
             .u-layout-cell {
                 width: 100%; /* Stack elements vertically on small screens */
+                margin: 5px 0; /* Reduce margin for smaller screens */
             }
             h1 {
-                font-size: 24px; /* Adjust heading size */
+                font-size: 20px; /* Adjust heading size */
             }
             p {
-                font-size: 14px; /* Adjust paragraph size */
+                font-size: 12px; /* Adjust paragraph size */
+            }
+            .u-large-text {
+                font-size: 14px; /* Adjust large text size */
+            }
+            .u-btn {
+                padding: 10px 20px; /* Adjust button padding */
+                font-size: 12px; /* Adjust button font size */
+            }
+        }
+
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 18px; /* Further reduce heading size on very small screens */
+            }
+            p {
+                font-size: 10px; /* Further reduce paragraph size */
+            }
+            .u-btn {
+                padding: 8px 16px; /* Further reduce button padding */
+                font-size: 10px; /* Further reduce button font size */
             }
         }
     </style>
