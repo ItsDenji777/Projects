@@ -1,2 +1,1 @@
-# [Projects](https://itsdenji777.github.io/Projects/)
-Where i put my Projects for Sell or Download!
+# **IT IS WORK IN PROGRESS AND THERE IS NO PROJECTS OR EITHER ANY ELEMENTS ON THE WEBSITE!!**
