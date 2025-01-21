@@ -1,6 +1,5 @@
 {
-    "Name" : "Kasra Seydi",
-    
+    "Name" : "Kasra Seydi", 
     "P1" : "$ Free",
     "T1" : "Nata - School App",
     "U1" : "Over 1,000 Uses",
@@ -12,7 +11,6 @@
     "DD1I1" : "Soon!",
     "DD1I2" : "Android",
     "DD1I3" : "Web",
-
     "P2" : "$ Not Specified Yet",
     "T2" : "AI Assistant",
     "U2" : "No Users Yet",
@@ -23,13 +21,12 @@
     "F2-5" : "Free Trial Included",
     "F2-6" : "Made with Pure 💙",
     "D2" : "WIP",
-
-    "CT1" : "$ Your Offer",
-    "CT2" : "Custom Project",
-    "CT3" : "No Customers Yet",
-    "CT4" : "Your Imagination",
-    "CT5" : "Custom And Scratch Made Projects",
-    "CT6" : "Low Deliver Time",
-    "CT7" : "Real-Time Support",
-    "CT8" : "Contact Me!"
+    "C1" : "$ Your Offer",
+    "C2" : "Custom Project",
+    "C3" : "No Customers Yet",
+    "C4" : "Your Imagination",
+    "C5" : "Custom And Scratch Made Projects",
+    "C6" : "Low Deliver Time",
+    "C7" : "Real-Time Support",
+    "C8" : "Contact Me!"
 }
