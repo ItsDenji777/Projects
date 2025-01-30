@@ -125,6 +125,11 @@ body {
   background-image: linear-gradient(to right, #0d87f9 0%, #1063b1 100%);
 }
 
+a {
+  text-decoration: none;
+  color
+}
+
 h2, h3, p, ul {
   margin: 0;
 }
@@ -173,6 +178,7 @@ ul li {
   text-decoration: none;
   width: 120px;
 }
+
 
 .uppercase, .button, h2 {
   text-transform: uppercase;
