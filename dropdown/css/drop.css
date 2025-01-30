@@ -18,7 +18,7 @@
 }
 
 .dropdown {
-  position: relative;
+  position: absolute;
   width: max-content;
 
 }
@@ -34,8 +34,8 @@
   border: none;
   outline: none;
   background-color: var(--container-color);
-  padding: 1.25rem;
-  border-radius: .75rem;
+  padding: 15px;
+  border-radius: 23px;
   cursor: pointer;
 }
 
