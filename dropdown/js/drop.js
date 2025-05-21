@@ -1,12 +1,21 @@
-/*=============== DROPDOWN JS ===============*/
-const showDropdown = (content, button) =>{
-   const dropdownContent = document.getElementById(content),
-         dropdownButton = document.getElementById(button)
+/*=============== FINAL POLISHED DROPDOWN JS: CLICK FOR ALL DEVICES ===============*/
+const showDropdown = (contentId, buttonId) => {
+  const dropdownContent = document.getElementById(contentId);
+  const dropdownButton = document.getElementById(buttonId);
+  const dropdownParent = dropdownButton.closest('.dropdown');
 
-   dropdownButton.addEventListener('click', () =>{
-      // We add the show-dropdown class, so that the menu is displayed
-      dropdownContent.classList.toggle('show-dropdown')
-   })
-}
+  // Toggle dropdown on any device via click
+  dropdownButton.addEventListener('click', (e) => {
+    e.stopPropagation();
+    dropdownParent.classList.toggle('show-dropdown');
+  });
 
-showDropdown('dropdown-content','dropdown-button')
+  // Close dropdown on outside click
+  document.addEventListener('click', (e) => {
+    if (!dropdownParent.contains(e.target)) {
+      dropdownParent.classList.remove('show-dropdown');
+    }
+  });
+};
+
+showDropdown('dropdown-content', 'dropdown-button');
