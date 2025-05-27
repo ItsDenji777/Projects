@@ -163,7 +163,6 @@ left: 51px;">Kasra Seydi</h1>
 			<a href="https://itsdenji777.github.io/Contact-Me" id="show" class="button" data-key="C8">Contact Me!</a>
 		</div>		
 	</div>
-	<script src="https://itsdenji777.github.io/lottie/TI.js"></script>
 	<script src="https://itsdenji777.github.io/lang.js"></script>
     <script>
     // Function to detect or retrieve the dynamic language
@@ -179,7 +178,7 @@ function getDynamicLanguage() {
 
 // Function to load the language JSON and update the page
 function changeLanguage(language) {
-    fetch(`${language}.json`) // Fetch the JSON file for the selected language
+    fetch(`langs/${language}.json`) // Fetch the JSON file for the selected language
         .then(response => {
             if (!response.ok) {
                 throw new Error(`Could not load ${language}.json`);
